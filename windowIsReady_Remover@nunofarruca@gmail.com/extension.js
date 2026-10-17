@@ -1,3 +1,13 @@
+// Window Is Ready - Notification Remover
+// Original work by Nuno Farruca and contributors:
+//   https://github.com/nunofarruca/WindowIsReady_Remover
+// Licensed under the Apache License, Version 2.0.
+//
+// Modified by Олександр Ткаченко (unofficial fork, 2026):
+//   - added GNOME 51 support;
+//   - disconnect only the handlers owned by Main.windowAttentionHandler
+//     instead of blocking the first handler found for the signal.
+
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
 
