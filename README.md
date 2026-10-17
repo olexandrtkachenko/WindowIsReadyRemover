@@ -34,8 +34,8 @@ Tested on GNOME 51.
 ## Installation (local)
 
 ```bash
-git clone -b gnome-51 https://github.com/olexandrtkachenko/WindowIsReady_Remover.git
-cd WindowIsReady_Remover
+git clone -b gnome-51 https://github.com/olexandrtkachenko/WindowIsReadyRemover.git
+cd WindowIsReadyRemover
 cd windowIsReady_Remover@nunofarruca@gmail.com
 zip -r ../windowIsReady_Remover.zip metadata.json extension.js
 gnome-extensions install --force ../windowIsReady_Remover.zip
